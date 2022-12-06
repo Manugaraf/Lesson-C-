@@ -4,8 +4,12 @@
 // 7 -> нет
 
 Console.WriteLine("Введите число");
-int num = Convert.ToInt32(console.ReadLine());
-if (num / 2)
+int num = Convert.ToInt32(Console.ReadLine());
+if (num % 2 == 0)
 {
-
+    Console.WriteLine("Четное");
+}
+else
+{
+    Console.WriteLine("Не четное");
 }
